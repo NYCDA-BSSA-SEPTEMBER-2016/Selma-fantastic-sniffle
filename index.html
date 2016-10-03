@@ -6,67 +6,28 @@
 <!-- 	can load stuff, can show titles
 	reaches your browser before anything visual does
 	after header is received will html start loading
-	soms wordt zo'n website lelijk en daarna pas mooi: css staat niet in de header.
+	soms wordt zo'n website lelijk en daarna pas mooi: css staat niet in de header.	
 	css in header: langzamer, maar mooier -->
+	<link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+
 </head>
 
 <body>
 
-	<h1>Bladiebla a heading heujjj</h1>
+	<div class="container">
+		<div class ="row">
+			<div id="header" class ="col-md-12">
+				<h1>Mega ukulele</h1>
+			</div>
+		</div>
+	</div>
 
-	<!-- prominently used: -->
-	<div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. <br>
-		Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	</p>
-<h1 id="moon">da mooon</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	</p>
-	<ul class="list">
-		<li>one</li>
-		<li>two</li>
-		<li>three</li>
-		<li>four</li>
-	</ul>
-	<ol class="list">
-		<li>one</li>
-		<li>two</li>
-		<li>three</li>
-		<li>four</li>
-	</ol>
-</div>
-<!-- div: block used to group things together -->
-<!-- lorem tab: vullingstekst -->
+	<!-- div: block used to group things together -->
+	<!-- lorem tab: vullingstekst -->
 
-
-<style>
-/*Select elements: by type (h1) */
-	h1 {
-		color: yellow;
-	}
-/*only ONE element: id: id="blabla" */
-	#moon {
-		color: grey;
-		background-color: black;
-	}
-
-/*class*/
-.list {
-	color: brown;
-}
-
-
-
-</style>
+<script src='.bootstrap/js/bootstrap.min.js'</script>
+	<script src="./main.js"></script>
 
 </body>
 
